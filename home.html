@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head> //Sasu Earnest Jonathan Udacity Code Project Pixel Art Marker/./
+    <title>UDACITY PROJECT :PIXEL ART MARKER</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Junge">
+    <link rel="stylesheet" href="artstyles.css">
+</head>
+<body>
+    <h1>PROJECT UDACITY: Pixel Art Maker</h1>
+
+    <h2>Choose Design Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="input_height" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="input_width" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+
+    <h2>Select A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design </h2>
+    <table id="pixel_canvas"></table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="pixel design.js"></script>
+</body>
+</html>
